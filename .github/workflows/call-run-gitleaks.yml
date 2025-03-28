@@ -11,5 +11,5 @@ on: [push, pull_request, workflow_dispatch]
 # Learn more about reusable actions: https://docs.github.com/en/actions/using-workflows/reusing-workflows
 jobs:
   call-workflow:
-    uses: nmfs-ost/admin/.github/workflows/run-gitleaks.yml@gitleaks_workflow
+    uses: nmfs-ost/.github/.github/workflows/run-gitleaks.yml@gitleaks_workflow
     secrets: inherit
